@@ -82,4 +82,4 @@ On completion, you should be able to provide an archive (<your_name>\_\<date>.ta
 - image-uploader.php
 - media (directory with sample images inside)
 
-Feel free to provide and archive with these deliverables, or if you prefer, fork this branch on github and push your changes as a feature branch using the same naming convention as required for the archive.
+Feel free to provide an archive with these deliverables, or if you prefer, fork this branch on github and push your changes as a feature branch using the same naming convention as required for the archive.
