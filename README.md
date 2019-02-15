@@ -83,3 +83,35 @@ On completion, you should be able to provide an archive (<your_name>\_\<date>.ta
 - media (directory with sample images inside)
 
 Feel free to provide an archive with these deliverables, or if you prefer, fork this branch on github and push your changes as a feature branch using the same naming convention as required for the archive.
+
+
+#Doc
+Code example 
+```
+//run poptable 
+$poptable = PopTable::getInstance()->run();
+echo $poptable;
+//run migrate
+$migrate = PopTable::getInstance()->run();
+echo $migrate
+
+```
+
+###wrong code table
+| Name | Description |
+| :---: | :---: |
+| 4x    | |
+| 4001 | db connection failed |
+| 4002 | initial table failed|
+| 4003 | fail to build sql|
+| 4004 | fail to insert data|
+| 4005 | no data read from original table|
+| 4006 | fail to read data from file| 
+
+| 2001 | success|
+
+
+#upload image
+1. In order to avoid images replaced by the same name image,
+the file name saved by this rule: 
+time_filename.jpg
